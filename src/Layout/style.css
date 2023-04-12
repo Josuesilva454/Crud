@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: -moz-linear-gradient();
+    height: 4.6875rem;
+    padding: 1rem;
+    background: blue;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center
+    
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu a {
+    display: block;
+    padding: 1rem;
+   border-radius: 0.5rem;
+}
+
+

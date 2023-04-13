@@ -26,8 +26,9 @@ const Listagem = () => {
     }
   return (
     <div className= "conteiner">
+      <h2>Listagem de movimentacões </h2>
     <div className = "btn">
-    <Link  className='btn btn-primary' to="/cadastrarMovimentacao">
+    <Link  className='btn btn-primary'style={{marginLeft: '500px'}} to="/cadastrarMovimentacao">
 <button>Cadastrar</button>
 </Link>     
     </div>

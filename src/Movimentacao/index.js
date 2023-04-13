@@ -30,6 +30,7 @@ function MovimentacaoForm() {
     
   return (
     <div>
+      <h2>Cadastrar Movimentações</h2>
       <form onSubmit={handleSubmit}>
       <div className='mb-3'>
         <label className="form-label" htmlFor="tipoMovimentacao">Tipo de Movimentação:</label>

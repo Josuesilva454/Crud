@@ -26,12 +26,13 @@ const Listagem = () => {
 
   return (
     <div className= "conteiner">
+             <h2> Listagem de Contêiner</h2>
         <div className = "btn">
-        <Link  className='btn btn-primary' to="/cadastrarContainer">
+        <Link  className='btn btn-primary' style={{marginLeft: '500px'}} to="/cadastrarContainer">
   <button>Cadastrar</button>
 </Link>     
         </div>
-
+      
       <table className='table-border'>
       <thead>
             <tr>

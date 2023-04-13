@@ -28,7 +28,9 @@ const CadastarConteiner = () => {
      };
   return (
      <div>
+      <h2>Cadastrar contêiner</h2>
     <form onSubmit={handleFormSubmit }>
+      
     <div class="form-group">
       <label for="cliente">Cliente</label>
       <input type="cliente" class="form-control" id="Cliente" value={cliente} onChange={(event)=> setCliente(event.target.value)} placeholder="Cliente">
